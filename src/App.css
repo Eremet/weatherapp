@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+body {
+  position: absolute;
+  background-repeat: no-repeat;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type=text] {
+  position: absolute;
+  border-radius: 4px solid black;
+  font-size: 20px;
+  background-color: white;
+  width: 50%;
+  outline: olive;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-left: 300px;
+  margin-top: -80px;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input:hover {
+  background-color: black;
+  border: none;
+  outline: none;
+  width: 50%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  position: absolute;
+  margin-left: 800px;
+  width: 130px;
+  height: 45px;
+  margin-top: -80px;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #000;
+  background: transparent;
+  border: 2px solid #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: black;
+  color: white;
 }
+
+.out {
+  margin-left: 300px;
+  margin-top: 170px;
+  border-radius: 25px;
+}
+.listDiv{
+  position: absolute;
+  margin-top: 30%;
+  margin-left: -20%;
+  padding: 40%;
+  border-radius: 25px;
+  border: 5px solid black;
+  margin-bottom: 30%;
+}
+.listH1{
+  width: 500px;
+}
+.listH2{
+  width: 500px;
+}
+
